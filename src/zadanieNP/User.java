@@ -51,7 +51,7 @@ public class User {
 	
 	@Override
 	public String toString() {
-		return "U¿ytkownik [imie = " + imie + ", nazwisko = " + nazwisko + ", wiek = " + dataUrodzenia + ", numer telefonu = "
+		return "UÅ¼ytkownik [imie = " + imie + ", nazwisko = " + nazwisko + ", wiek = " + dataUrodzenia + ", numer telefonu = "
 				+ numerTelefonu + "]\n";
 	}
 }
