@@ -14,7 +14,7 @@ public class UserList {
 
 		ArrayList<User> list = new ArrayList<>();
 
-		// czytanie u�ytkownika z pliku tekstowego
+		// czytanie użytkownika z pliku tekstowego
 		try (BufferedReader br = new BufferedReader(new FileReader("users.txt"))) {
 
 			String line;
@@ -30,7 +30,7 @@ public class UserList {
 			e.printStackTrace();
 		}
 
-		// najstarszy u�ytkownik z numerem telefonu
+		// najstarszy użytkownik z numerem telefonu
 		User najstarszyUser = null;
 
 		for (User user : list) {
@@ -63,13 +63,13 @@ public class UserList {
 			user.setDataUrodzenia(wiek.toString());
 		}
 
-		System.out.println("Liczba u�ytkownik�w wynosi: " + list.size()); // ilo��
-																			// u�ytkownik�w
+		System.out.println("Liczba użytkowników wynosi: " + list.size()); // ilość użytkowników
+																			// u¿ytkowników
 
-		System.out.println("Najstarszy u�ytkownik z numerem telefonu to: " + najstarszyUser); // najstarszy
+		System.out.println("Najstarszy użytkownik z numerem telefonu to: " + najstarszyUser); // najstarszy użytkownik 
 																								// uzytkownik
 
-		System.out.println(list); // lista u�ytkownik�w
+		System.out.println(list); // lista użytkowników
 
 	}
 
