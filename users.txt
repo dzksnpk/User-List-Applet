@@ -1,0 +1,5 @@
+Franek,Kimono,1990-04-10,800-700-300
+Mariusz,Ka³amarz,1970-05-20,555-444-333
+Ryszard,Lewy,1950-12-01,111-222-333
+Lech,Paprotka,1916-12-08, 
+Marianna,Wanna,1973-01-31,666-123-456
